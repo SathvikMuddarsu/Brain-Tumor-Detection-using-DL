@@ -231,6 +231,32 @@ Default `BATCH_SIZE = 16` was chosen to fit a 4GB VRAM GPU (developed/tested on 
 ## Explainability
 
 `grad_cam.py` produces Grad-CAM overlays using the final ConvNeXt feature map as the target layer (kept consistent across all four classes for methodological fairness), with anatomical erosion to suppress skull/background artifacts. Sample outputs for all four classes are in `results/gradcam/`.
+##Results of GradCAM
+<h3 align="center">Grad-CAM Visualization Results</h3>
+
+<table align="center">
+  <tr>
+    <th>Glioma</th>
+    <th>Meningioma</th>
+    <th>Pituitary</th>
+    <th>No Tumor</th>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://github.com/user-attachments/assets/ccbafec3-753d-4eb5-b69c-70b2b56eea31" width="200" alt="Glioma Grad-CAM" />
+    </td>
+    <td>
+      <img src="https://github.com/user-attachments/assets/3aa17caa-85ea-499f-965d-9518d0f077c1" width="200" alt="Meningioma Grad-CAM" />
+    </td>
+    <td>
+      <img src="https://github.com/user-attachments/assets/189076d9-4533-4fc4-b35f-b87ccd01af58" width="200" alt="Pituitary Grad-CAM" />
+    </td>
+    <td>
+      <img src="https://github.com/user-attachments/assets/3cea67e1-d8ff-4cb5-8c1c-38e03061b0ff" width="200" alt="No Tumor Grad-CAM" />
+    </td>
+  </tr>
+</table>
+
 
 ## Limitations & Honest Notes
 
