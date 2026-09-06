@@ -1,0 +1,15 @@
+============================================================
+             CSCAN BRAIN TUMOR CLASSIFICATION REPORT
+============================================================
+
+              precision    recall  f1-score   support
+
+      glioma       1.00      0.84      0.91       400
+  meningioma       0.88      0.99      0.94       400
+   pituitary       0.99      1.00      1.00       400
+     notumor       0.97      1.00      0.98       400
+
+    accuracy                           0.96      1600
+   macro avg       0.96      0.96      0.96      1600
+weighted avg       0.96      0.96      0.96      1600
+
