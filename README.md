@@ -1,4 +1,3 @@
-<img width="1600" height="838" alt="image" src="https://github.com/user-attachments/assets/78f2dbda-c69d-4dce-8668-4a8dffd74276" /># Brain-Tumor-Detection-using-DL
 
 # CSCAN-DCRF: Brain Tumor MRI Classification
 
