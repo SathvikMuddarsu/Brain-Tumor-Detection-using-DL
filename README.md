@@ -82,9 +82,11 @@ Evaluated on the held-out test set (1,600 images, 400 per class), with Test-Time
 Glioma is the hardest class to recognize (recall 0.84) and is most often confused with meningioma — visible in the confusion matrix below. This is a known, clinically-recognized difficulty: glioma and meningioma can present with visually overlapping features on certain slices.
 
 <p align="center">
-  <img src="accuracy_curve.png" width="400" alt="Training/validation accuracy curve">
-  <img src="loss_curve.png" width="400" alt="Training/validation loss curve">
+  <img width="2400" height="1500" alt="accuracy_curve" src="https://github.com/user-attachments/assets/4c85d52a-83a7-4b2c-a7c1-635e86bc9e06" />
+  <img width="2400" height="1500" alt="loss_curve" src="https://github.com/user-attachments/assets/580e7f96-5df2-4af8-97d4-2cf0d8766217" />
+
 </p>
+
 
 > **A note on this number.** The dataset used here is known to contain near-duplicate slices leaking between its official Train/Test split (adjacent slices from the same patient scan can look almost identical), which is why some public notebooks on this dataset report 99%+ accuracy. Before citing this result in a report or paper, consider running a perceptual-hash duplicate check between Train/Test, or reporting stratified k-fold cross-validation accuracy as a more defensible number. See [`IMPROVEMENTS.md`](IMPROVEMENTS.md) for the full discussion.
 
