@@ -82,8 +82,8 @@ Evaluated on the held-out test set (1,600 images, 400 per class), with Test-Time
 Glioma is the hardest class to recognize (recall 0.84) and is most often confused with meningioma — visible in the confusion matrix below. This is a known, clinically-recognized difficulty: glioma and meningioma can present with visually overlapping features on certain slices.
 
 <p align="center">
-  <img width="2400" height="1500" alt="accuracy_curve" src="https://github.com/user-attachments/assets/4c85d52a-83a7-4b2c-a7c1-635e86bc9e06" />
-  <img width="2400" height="1500" alt="loss_curve" src="https://github.com/user-attachments/assets/580e7f96-5df2-4af8-97d4-2cf0d8766217" />
+  <img width="1200" height="800" alt="accuracy_curve" src="https://github.com/user-attachments/assets/4c85d52a-83a7-4b2c-a7c1-635e86bc9e06" />
+  <img width="1200" height="800" alt="loss_curve" src="https://github.com/user-attachments/assets/580e7f96-5df2-4af8-97d4-2cf0d8766217" />
 
 </p>
 
