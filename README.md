@@ -3,7 +3,7 @@
 
 A deep learning pipeline that classifies brain MRI scans into four categories — **glioma**, **meningioma**, **pituitary tumor**, and **no tumor** — using a dual-backbone hybrid network that fuses **ConvNeXt** (local/texture features) and a **Swin Transformer** (global/contextual features) through a custom cross-attention and confidence-refinement pipeline.
 
-The model achieves **95.75% test accuracy** on the Nickparvar Brain Tumor MRI dataset. Grad-CAM visualizations are included to make predictions interpretable for clinical review.
+The model achieves **95.75% test accuracy** on the Nickparvar Brain Tumor MRI dataset.Grad-CAM visualizations are included to improve model interpretability and visualize the regions influencing predictions.
 
 <h1 align="center">CSCAN-DCRF: Brain Tumor MRI Classification</h1>
 
@@ -84,8 +84,7 @@ Evaluated on the held-out test set (1,600 images, 400 per class), with Test-Time
 | Pituitary | 0.99 | 1.00 | 1.00 |
 | No tumor | 0.97 | 1.00 | 0.98 |
 
-Glioma is the hardest class to recognize (recall 0.84) and is most often confused with meningioma — visible in the confusion matrix below. This is a known, clinically-recognized difficulty: glioma and meningioma can present with visually overlapping features on certain slices.
-
+Glioma is the hardest class to recognize (recall 0.84) and is most often confused with meningioma — visible in the confusion matrix below. This is a known, Glioma is the hardest class to recognize (recall 0.84) and is most often confused with meningioma, as visible in the confusion matrix below.
 <p align="center">
   <img 
     src="https://github.com/user-attachments/assets/4c85d52a-83a7-4b2c-a7c1-635e86bc9e06"
